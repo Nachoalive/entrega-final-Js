@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Películas</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <header>
+        
+        
+        <nav>
+            <div class="left-section">
+                <a href="./index.html" class="logo"><img src="./assets/sinfondo.png" alt="Logo"></a>
+                
+                <h1 class="">La Butaca</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./tuwhislist.html">Tu Wishlist</a></li>
+                <li><a href="login.html" id="login">Login</a></li>
+            </ul>
+            <div><p id="nombrelogin">Bienvenido Invitado!</p>
+        </nav>
+    </header>
+
+    <main>
+       
+        <h2 class="classh2">Peliculas Populares</h2>
+        <div id="contenedor-peliculas"></div>
+        <div class="navegacion">
+            <button id="btnbfre">Retroceder</button>
+            <button id="btnfrward">Avanzar</button>
+        </div>
+        <h2 class="classh2">Búsqueda de Películas</h2>
+        <form id="busqueda">
+            <input type="text" id="titulo" placeholder="Busca una película por título">
+            <button type="submit">Buscar</button>
+        </form>
+        
+    <div id="resultados-busqueda"></div>
+
+        
+    </main>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/wishlist.js"></script>
+    <script src="./js/populares.js"></script>
+</body>
+</html>
